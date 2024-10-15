@@ -3,6 +3,8 @@ package hello_test
 import (
 	"bytes"
 	"testing"
+
+	"github.com/syntaxofffedora/hello"
 )
 
 func TestPrintTo_PrintsHelloMessageToGivenWriter(t *testing.T) {
