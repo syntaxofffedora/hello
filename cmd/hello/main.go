@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"os"
+
+	"github.com/syntaxofffedora/hello"
+)
 
 func main() {
-	fmt.Println("Hello, Gophers!")
+	hello.PrintTo(os.Stdout)
 }
